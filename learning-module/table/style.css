@@ -20,4 +20,30 @@ body {
     font-family: 'Inter', sans-serif;
     color: #342a40;
     line-height: 1;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 800px;
+    margin: 100px auto;
+    /* border: 1px solid #342a40; */
+    border-collapse: collapse;
+}
+th, td {
+    /* border: 1px solid #342a40; */
+    padding: 16px 24px;
+    text-align: left;
+}
+thead th{
+    background-color: #099268;
+    color: #fff;
+    font-weight: bold;
+    width: 25%;
+}
+tbody tr:nth-child(odd){
+    background-color: #f8f9fa;
+}
+tbody tr:nth-child(even){
+    background-color: #f1f3f5;
 }
